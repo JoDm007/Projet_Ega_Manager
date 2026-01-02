@@ -1,0 +1,2 @@
+<?php
+// Fichier : register.php
