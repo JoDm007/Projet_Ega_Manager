@@ -1,0 +1,2 @@
+<?php
+// Fichier : budgets.php

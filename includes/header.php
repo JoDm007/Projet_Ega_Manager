@@ -1,0 +1,2 @@
+<?php
+// Fichier : header.php

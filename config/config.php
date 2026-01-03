@@ -1,0 +1,2 @@
+<?php
+// Fichier : config.php

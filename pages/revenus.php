@@ -1,0 +1,2 @@
+<?php
+// Fichier : revenus.php
