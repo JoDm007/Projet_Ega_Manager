@@ -1,0 +1,79 @@
+/* Variables de couleur */
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+}
+
+/* Styles de base */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles pour les en-têtes */
+header {
+    background-color: var(--dark-color);
+    color: white;
+    padding: 1rem;
+}
+
+/* Styles pour la barre de navigation */
+.navbar {
+    background-color: var(--dark-color);
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+/* Styles pour les boutons */
+.btn {
+    margin-right: 0.5rem;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-danger {
+    background-color: var(--danger-color);
+    border-color: var(--danger-color);
+}
+
+.btn-success {
+    background-color: var(--success-color);
+    border-color: var(--success-color);
+}
+
+/* Styles pour les formulaires */
+.form-control {
+    margin-bottom: 1rem;
+}
+
+/* Styles pour les tableaux */
+.table {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour les alertes */
+.alert {
+    margin-top: 1rem;
+}
+
+/* Styles pour les graphiques */
+.chart-container {
+    margin: 2rem 0;
+}
