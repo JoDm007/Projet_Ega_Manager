@@ -1,4 +1,4 @@
-# Projet_Ega_Manager
+# Projet_Ega_Manager Fr & ANG
 
 Application web PhP de gestion des dépenses perso suivie de la visualisation des dépenses quotidiennes
 
@@ -58,3 +58,68 @@ o Catégorie la plus dépensée
  Graphiques simples (optionnel) :
 o Camembert : répartition par catégorie
 o Barres : dépenses mensuelles
+
+============En ANG
+
+Web application in PHP for managing personal expenses, including tracking and visualizing daily spending.
+
+Introduction
+1.1 Context
+Many students and young adults struggle to track and control their daily expenses. Existing solutions are often too complex or in English, such as YNAB and others. Our Ega_Manager application will allow users to easily track their expenses, set budgets, and visualize their spending habits in just a few clicks.
+
+1.2 Project Objective
+To develop a simple and intuitive web application that allows users to record their expenses, categorize them, set a monthly budget, and visualize a clear summary of their financial situation.
+
+1.3 Project Scope
+
+Single-page main application with dashboard
+Interface in French, clean and responsive
+Single profile: Standard user
+No multi-account management or data sharing
+Private and secure data per user account
+Target Audience
+2.1 End Users
+
+Students wishing to track their expenses
+Anyone wishing to manage a simple personal budget
+2.2 Expected Technical Skills
+
+Basic web navigation
+Simple data entry (amount, description, date)
+Understanding of basic budgetary concepts
+Expected Functionalities
+3.1 General Functionalities
+
+Homepage with presentation
+Authentication system (registration/login)
+Responsive interface (mobile + desktop)
+Secure logout
+3.2 Expense Management
+
+Add an expense:
+Form: amount, date, category, description (optional)
+Quick entry (date pre-filled with today's date)
+List expenses:
+Table with all user's expenses
+Sort by date (recent → old)
+Filter by category or by month
+Modify an expense (correction of amount, category, etc.)
+Delete an expense (with confirmation)
+3.3 Category Management
+
+Predefined categories: Food, Transportation, Housing, Leisure, Health, Other
+Possibility to add a custom category (optional)
+Color associated with each category (for graphs)
+3.4 Budget Management
+
+Set a monthly budget per category (or overall budget)
+Visualize budget status:
+Progress bar (expenses / budget)
+Display of remaining amount to spend
+Visual alert if exceeded (red color)
+3.5 Dashboard and Reports
+
+Summary of the current month:
+Total spent
+Average spending per day
+Most spent category
